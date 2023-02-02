@@ -34,15 +34,15 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>Flirty AI Bot</title>
+        <title>Valentines AI Bot</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Need help to flirt with your special someone? :)</h1>
+            <h1>Want to get the attention of your special someone this Valentines? :)</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Describe the person you want to flirt with as specific as you can. Make sure to include what kind of message you need (poem, joke, love letter) + if you want to ask him/her out on a date/dinner/coffee :)</h2>
+            <h2>Describe the person you want to flirt with this Valentines day as specific as you can. Make sure to include what kind of message you need (poem, joke, love letter) + if you want to ask him/her out on a date/dinner/coffee :)</h2>
           </div>
         </div>
         <div className="prompt-container">
