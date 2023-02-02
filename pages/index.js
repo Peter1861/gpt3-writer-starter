@@ -70,13 +70,13 @@ const Home = () => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://flirtyai.com"
+          href="https://valentinesai.com"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>Buy Flirty AI Bot coin on ETH</p>
+            <p>Buy Valentines AI Bot coin on ETH</p>
           </div>
         </a>
       </div>
