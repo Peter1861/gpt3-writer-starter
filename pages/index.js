@@ -70,13 +70,13 @@ const Home = () => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://valentinesai.com"
+          href="https://t.me/Valentines_AI"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>Buy Valentines AI Bot coin on ETH</p>
+            <p>Go to Valentines AI Telegram</p>
           </div>
         </a>
       </div>
