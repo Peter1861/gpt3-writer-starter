@@ -2,6 +2,10 @@
 
 body {
     margin: 0;
+    background: url(askelon.png);
+    background-size:contain;
+    background-position:top;
+    background: cover;
     padding: 0;
     font-family: 'Manrope', sans-serif;
 }
