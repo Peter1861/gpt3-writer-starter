@@ -42,7 +42,7 @@ const Home = () => {
             <h1>#AskElon Anything</h1>
           </div>
           <div className="header-subtitle">
-            <h2> Have a question? Best person to ask is Elon! </h2>
+            <h2> Have a question? Best person to ask is Elon!!! </h2>
           </div>
         </div>
         <div className="prompt-container">
