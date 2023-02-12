@@ -159,7 +159,7 @@ textarea {
 }
 
 .key-stroke p {
-    color: rgba(153, 153, 255);
+    color: rgb(255, 255, 255);
     flex: 0 0 auto;
     height: auto;
     position: relative;
@@ -177,7 +177,7 @@ textarea {
 }
 
 .or p {
-    color: rgba(153, 153, 255);
+    color: rgb(255, 255, 255);
 }
 
 .generate-button {
