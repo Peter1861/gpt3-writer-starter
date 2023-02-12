@@ -3,6 +3,10 @@ import Image from 'next/image';
 import buildspaceLogo from '../assets/ai-logo.png';
 import { useState } from 'react';
 
+<div style={{ backgroundImage: "url(/images/askelon.png)" }}>
+  Hello world
+</div>
+
 const Home = () => {
   const [userInput, setUserInput] = useState('');
   const [apiOutput, setApiOutput] = useState('')
