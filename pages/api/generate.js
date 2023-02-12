@@ -5,10 +5,9 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
-//Write a romantic message to the person described below:
-//Create a mini story tailored to the situation and characteristics of the person described
+//Answer any question described below
 
-const basePromptPrefix = "Write a romantic message to the person described below and make sure the message is tailored toward the characteristics of the person"; 
+const basePromptPrefix = "Answer the question described below as specific and detailed as possible."; 
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`)

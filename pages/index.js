@@ -34,15 +34,15 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>Valentines AI Bot</title>
+        <title>#AskElon AI Bot</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Want to get the attention of your special someone this Valentines? :)</h1>
+            <h1>#AskElon Anything</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Describe the person you want to flirt with this Valentines day as specific as you can. Make sure to include what kind of message you need (poem, joke, love letter) + if you want to ask him/her out on a date/dinner/coffee :)</h2>
+            <h2> Have a question? Best person to ask is Elon! </h2>
           </div>
         </div>
         <div className="prompt-container">
@@ -70,18 +70,19 @@ const Home = () => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://t.me/Valentines_AI"
+          href="https://t.me/AskElon_erc"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>Go to Valentines AI Telegram</p>
+            <p>Check #AskElon Telegram Group</p>
           </div>
         </a>
       </div>
     </div>
   );
 };
+
 
 export default Home;
