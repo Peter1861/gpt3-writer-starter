@@ -34,7 +34,7 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>#AskElon AI Bot</title>
+        <title>#ImaginePrompt AI Bot</title>
       </Head>
       <div className="container">
         <div className="header">
@@ -42,7 +42,7 @@ const Home = () => {
             <h1>#AskElon Anything</h1>
           </div>
           <div className="header-subtitle">
-            <h2> Have a question? Best person to ask is Elon!!! </h2>
+            <h2> What would Vitalik do or say? No need to imagine! Just ask the bot below</h2>
           </div>
         </div>
         <div className="prompt-container">
