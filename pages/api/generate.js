@@ -7,7 +7,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 //Answer any question described below
 
-const basePromptPrefix = "Answer the question described below as specific and detailed as possible."; 
+const basePromptPrefix = "Imagine you are Vitalik Buterin when you answer each question specified below. If I am Vitalik Buterik should be the start of each question."; 
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`)
