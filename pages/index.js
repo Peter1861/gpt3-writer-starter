@@ -39,7 +39,7 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>#AskElon Anything</h1>
+            <h1>Imagine You are Vitalik Buterin</h1>
           </div>
           <div className="header-subtitle">
             <h2> What would Vitalik do or say? No need to imagine! Just ask the bot below</h2>
@@ -70,13 +70,13 @@ const Home = () => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://t.me/AskElon_erc"
+          href="https://t.me/ImaginePrompt_AI"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>Check #AskElon Telegram Group</p>
+            <p>ImaginePrompt AI TG</p>
           </div>
         </a>
       </div>
